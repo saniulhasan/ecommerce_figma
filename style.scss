@@ -221,3 +221,46 @@ color:#FAFAFA;
 
     }
 }
+
+.today{
+    padding:10px 135px;
+}
+.intro_bg{
+    width:20px;
+    height: 40px;
+    border-radius:4px;
+    background-color: #DB4444;
+}
+.introduction{
+    display:flex;
+    align-items: center;
+    gap:15px;
+    margin-bottom: 20px;
+}
+.countdown{
+    display: flex;
+    align-items: center;
+    gap:15px;
+    h2{
+
+        //styleName: Heading/36PX SemiBold;
+font-family: Inter;
+font-size: 36px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.04em;
+text-align: left;
+color:#000000;
+    }
+    p{
+
+        //styleName: Heading/32PX Bold;
+font-family: Inter;
+font-size: 32px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.04em;
+text-align: left;
+color:#000000;
+    }
+}
